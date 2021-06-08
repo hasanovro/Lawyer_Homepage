@@ -1,0 +1,402 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    
+}
+.nav_bar{
+    background-color: white;
+    box-shadow: 2px 2px 10px #bdbdbd;
+}
+.nav_bar li {
+    
+    padding: 10px 15px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #204f87;
+    font-size: 16px;
+    font-weight: 600;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #F2632C;
+    
+}
+/* header part end */
+.banner{
+    background-image: url('bg_image.png');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.bannertxt{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+.bannertxt h1{
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+.dropicon{
+    
+    position: absolute;
+    font-size: 30px;
+    top: 80%;
+    left: 50%;
+    /*! right: -50%; */
+    color: white;
+    transform: translate(-50%, 0);
+    animation-name: dropdown;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes dropdown{
+    0%{
+        top: 80%;
+    }
+    100%{
+        top: 84%;
+    }
+}
+/* banner part end */
+
+.text_line{
+
+    width: 100px;
+    border: 3px solid #F2632C;
+    opacity: 1;
+    margin: 0.5rem 0;
+}
+.wwaa{
+    
+    
+    display: flex;
+    align-items: center;
+}
+.wwa{
+    padding: 100px 0;
+}
+.wwa h1{
+    
+    font-size: 40px;
+    font-weight: 650;
+    color: #28377E;
+}
+.wwa p{
+
+    font-size: 16px;
+    font-weight: normal;
+    color: #b0b0b1;
+}
+.wwa img{
+    float: right;
+}
+/* wwa part end */
+.features{
+    text-align: center;
+    margin: 20px 0;
+}
+.features img{
+    width: 100%;
+}
+.wwd{
+    background-color: #f7f8f8;
+    overflow: hidden;
+    position: relative;
+    padding: 50px 0 100px 0;
+    z-index: -1;
+}
+.wwdbg{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.ftrs1{
+    position: relative;
+}
+.imgtxt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.imgtxt h1{
+    
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
+.imgtxt i{
+
+    font-size: 20px;
+    color: white;
+}
+.wwdtitle{
+    text-align: center;
+    margin: 50px auto;
+}
+.text_line2{
+    width: 100px;
+    border: 3px solid #F2632C;
+    opacity: 1;
+    /*! margin: 0.5rem 0; */
+    text-align: center;
+    margin: .5rem auto;
+}
+
+.wwdtitle h1{
+    font-size: 40px;
+    font-weight: 650;
+    color: #28377E;
+}
+/* wwd part end */
+.attorneys{
+    background-image: url('attorneybg.png');
+    min-height: auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    box-sizing: border-box;
+}
+.attorneytxt{
+    width: 80%;
+    margin-bottom: 20px;
+}
+.attorneytxt h1{
+    font-size: 40px;
+    font-weight: 650;
+    color: #ffffff;
+    line-height: 35px;
+}
+.attorneytxt p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #929dcf;
+}
+.attorneytxt h5{
+    font-size: 20px;
+    font-weight: 600;
+    color: #f2622c;
+    text-transform: uppercase;
+    transition: .3s;
+}
+.attorneytxt h5:hover{
+    
+    color: #929dcf;
+}
+.attorneyimg1{
+    background-image: url('attorneyimg1.png');
+    min-height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.attorneyimg1 p{
+    
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 70%;
+    text-transform: uppercase;
+    padding: 20px;
+}
+.attorneyimg2{
+    background-image: url('attorneyimg2.png');
+    min-height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.attorneyimg2 p{
+    
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 70%;
+    text-transform: uppercase;
+    padding: 20px;
+}
+.attorneyimg4{
+    background-image: url('attorneyimg3.png');
+    min-height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.attorneyimg4 p{
+    
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 70%;
+    text-transform: uppercase;
+    padding: 20px;
+}
+.attorneyimg5{
+    background-image: url('attorneyimg4.png');
+    min-height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.attorneyimg5 p{
+    
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 70%;
+    text-transform: uppercase;
+    padding: 20px;
+}
+/* attorneys part end */
+.language{
+    margin: 100px auto;
+}
+.lng{
+    padding: 10px;
+}
+.lng h3{
+    
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #28377E;
+}
+.lng p{
+
+    font-size: 16px;
+    color: #B4B2B1;
+}
+.lng h5{
+
+}
+.lng h5{
+    font-size: 20px;
+    font-weight: 600;
+    color: #f2622c;
+    text-transform: uppercase;
+    transition: .3s;
+}
+.lng h5:hover{
+    
+    color: #929dcf;
+}
+/* language part end */
+.contact{
+    background-color: #28377E;
+    padding: 50px 0;
+}
+.contacttitle{
+    text-align: center;
+}
+.contacttitle h1{
+    font-size: 40px;
+    font-weight: 650;
+    color: #ffffff;
+}
+.formc{
+    
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+.formc button{
+    
+    
+    padding: 10px 40px;
+    margin: 30px;
+    border: none;
+    background-color: #F2632C;
+    color: white;
+    border-radius: 2px;
+    transition: .3s;
+}
+.formc button:hover{
+    
+    
+    
+    background: none;
+    border: 1px solid #F2632C;
+    color: #F2632C;
+    
+}
+.form{
+
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid white;
+    background: none;
+    color: white;
+    margin: 20px 0;
+    padding: 10px 0;
+}
+/* contact part end */
+footer{
+
+    background-color: #0c1234;
+    padding: 20px;
+}
+.footerpart{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ftext{
+
+    display: inline-flex;
+}
+.ftext p{
+
+    padding: 0;
+    margin: 0;
+    color: #616ca8;
+    font-size: 14px;
+}
+.ficon{
+
+    display: inline-flex;
+}
+.ficon i{
+
+    padding: 0 10px;
+    font-size: 20px;
+    color: #616ca8;
+}
+/* Ended by the help of Almighty Allah */
+
